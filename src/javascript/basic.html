@@ -1,40 +1,72 @@
 <!DOCTYPE HTML>
 <HTML>
     <H1> Hello World From Html</H1>
-</HTML>
+
 <BODY>
+  <form id=frm1>
   <input type="text">
   <br>
-  <button type="push me" id="myclick">push me</button>
+  <br>
   
-<button onbuttonclicked="printtoconsole.log"></button>
+       <!-- <button type="push me" id="myclick">push me</button> -->
+  <input type="button" onclick="myFunction()" value="push me">
+        <script>
+                function myFunction() {
+                  document.getElementById("frm1").submit();
+                }
+          </script>
+
+  </form>
+ 
+
+ 
+  
+<!-- <button onbuttonclicked="printtoconsole.log"></button>
 
 <script>
 function printtoconsole() {
     document.getElementById("myclick").innerHTML = "Have a nice day!";
 }
 
-</script>
+</script> -->
 <script>
-    function size(){ var x=15;{
-        if (x<10){
-            x="small;"
-        };
-        elif (10<=x<19){
-            x="med";
-        };
-        if (x>=20){
-            x="large;"
-        }
+    
+    size: (num) => {
+        if (num < 10) return "small";
+        if (10 <= num < 19) return "med";
+        if (num >= 20) return "large";
     }
-    return(x);
-</script>
-        if X <10; {a
-        If 10 <=X <19; return "-_med";
-        if X<=20; return "large"
 </script>
 
+
+<h2> My Calculator</h2>
+<script>
+    add:(a,b)=>{
+        var firstNumber = prompt ('what is the first number?')
+        var secondNumber = prompt ('what is the second number?')
+    return (sum =Number(firstNumber)+Number(secondNumber));
+    }
+    substract:(a,b) => {
+        var firstNumber = prompt ('what is the first number?')
+        var secondNumber = prompt ('what is the second number?')
+    return (sum =Number(firstNumber)-Number(secondNumber));
+    }
+    Multiply: (a,b) =>{
+        var firstNumber = prompt ('what is the first number?')
+        var secondNumber = prompt ('what is the second number?')
+    return (sum =Number(firstNumber)*Number(secondNumber));
+    }
+    Devide: (a,b) =>{
+        var firstNumber = prompt ('what is the first number?')
+        var secondNumber = prompt ('what is the second number?')
+    return (sum =Number(firstNumber)/Number(secondNumber));
+    },
+
 </script>
+
+
+        
+
   <script src="basic.js"></script>
   <script>console.log("Hello World from inline JavaScript")</script>
   <!-- <a href="file:///C:/code/evolveu/javascript/basic.html ">Hello World from inline javascript</a> -->

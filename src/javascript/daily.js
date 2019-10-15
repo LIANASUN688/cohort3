@@ -36,5 +36,5 @@ const functions = {
 // const num2 = 25;
 // console.log(functions.assertEquals(num1, num2));
 // 2
-export default functions;
+// export default functions;
   

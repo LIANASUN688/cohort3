@@ -10,5 +10,5 @@ test('testing function', (prompt) => {
     
 });
 test( 'testing sum',(para1,para2) => {
-    expect(functions.sum(1,2)).toBe(4);
-}
+    expect(functions.Sum(2,2)).toBe(4);
+})

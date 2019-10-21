@@ -2,6 +2,7 @@
 // 	Write the function that will create this output:
 import functions from './daily'
 
+
 test('testing function', () => {
     expect(functions.assertEquals(1,1)).toBe(true);
     expect(functions.assertEquals(2,3)).toBe(false);

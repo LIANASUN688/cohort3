@@ -7,17 +7,17 @@
 // undefined:
 const functions = {
     jsTypesOfinput: (prompt)=> {
-    if ( prompt =[])
+    if ( prompt === [])
        return 'array';
-    else if (prompt= {})
+    else if (prompt=== {})
        return 'object';
     else  ( prompt === 1 )
         return (typeof prompt);
     },// sample if / else
 
     // functions( parameters returns)
-    Sum: (para1,para1) =>{
-        return para1+para2;
+    Sum: (para1,para2) =>{
+         numOr0(para1)+numOr0(para2);
     },
     // arrays (add to the front, add to the end, update values)
     addTotheFrontofMyarray: ()=> {
